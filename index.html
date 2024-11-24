@@ -1,0 +1,72 @@
+<html lang = "ES">
+    <head>
+        <!--Leaflet-->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+        crossorigin=""></script>
+        <script src="style-script.js"></script>
+        <title>MAPITA</title>
+        <link rel = "stylesheet" href = "styles.css"/>
+        <link rel = "stylesheet" href="page_objects.css">
+        <link rel = "icon" type ="icon" href="icons/urmaps_ico_grande.ico">
+    </head>
+    <body>
+        <header>
+
+        </header>
+        <main>
+            <div class="row">
+                <!-- Column 1: Search Bar -->
+                <div class="col">
+                    
+                    <!--Primer Drop Inicio-->
+                    <div class = "dropdown" id = "begin">
+                        <div class = "select">
+                            <span class = "selected">Inicio</span>
+                            <div class = "caret"></div>
+                        </div>
+                        <ul class = "menu">
+                            <li id = "A">Entrada</li>
+                            <li id = "B">Escalera Caldas</li>
+                            <li id = "C">Baños Claustro</li>
+                            <li id = "D">Entrada Teatrino</li>
+                            <li id = "E">Síndico</li>
+                            <li id = "F">Aula Mutis</li>
+                            <li id = "G">Capilla de la Bordadita</li>
+                            <li id = "H">Cuenteros</li>
+                            <li id = "I">Escaleras Casur</li>
+                            <li id = "J">Comedor</li>
+                        </ul>
+                    </div>
+                    <!--Segundo Drop Fin-->
+                    <div class = "dropdown" id = "end">
+                        <div class = "select">
+                            <span class = "selected">Fin</span>
+                            <div class = "caret"></div>
+                        </div>
+                        <ul class = "menu">
+                            <li id = "A">Entrada</li>
+                            <li id = "B">Escalera Caldas</li>
+                            <li id = "C">Baños Claustro</li>
+                            <li id = "D">Entrada Teatrino</li>
+                            <li id = "E">Síndico</li>
+                            <li id = "F">Aula Mutis</li>
+                            <li id = "G">Capilla de la Bordadita</li>
+                            <li id = "H">Cuenteros</li>
+                            <li id = "I">Escaleras Casur</li>
+                            <li id = "J">Comedor</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                <!-- Column 2: Map -->
+                <div class="col">
+                    <div id="map"></div>
+                    <script src="script.js"></script>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
