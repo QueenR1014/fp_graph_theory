@@ -182,8 +182,10 @@ let Icon = L.icon({
     iconUrl: 'markers/Pablo.png',
     iconSize: iconSizes['M']
 });
+
 //Añadimos el marcador con el icono
 var marker = L.marker([-34, -20], { icon: Icon }).addTo(map);
+
 
 //set dynamic icon size
 // Listen for the zoomend event
